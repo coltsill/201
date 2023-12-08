@@ -1,0 +1,105 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(185, 185, 201);
+    color: darkblue;
+    text-align: center;
+}
+
+a {
+    color: royalblue
+}
+
+a:visited {
+    color: white;
+}
+
+img {
+    display: block;
+    border: solid white 3px;
+    padding: 4px;
+    margin: auto;
+    /*centers image with block display*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+h6 {
+    border: dashed orange 3px;
+    text-align: center;
+}
+
+.cougs {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: darkblue;
+    font-style: italic;
+    text-decoration: underline black;
+    background-color: white;
+    text-align: center;
+}
+
+.cougs:hover {
+    font-size: 500%;
+    background-color: darkblue;
+    border: solid white 10px;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+#content {
+    /* Additional styling for the content container if needed */
+    margin: 20px;
+}
+
+#athletics-section {
+    float: right; /* Align the div to the right */
+    margin-left: 20px; /* Add some space between the content and the right-aligned div */
+    width: 40%; /* Set a width for the div */
+    background-color: #f5f5f5; /* Add a background color */
+    padding: 10px; /* Add padding for better readability */
+    border: 1px solid #ddd; /* Add a border for visual separation */
+}
+
+#athletics-section h2 {
+    color: #333; /* Change the color of the heading */
+    border-bottom: 2px solid #333; /* Add a border below the heading for separation */
+    padding-bottom: 5px; /* Add space between the heading and the list */
+}
+
+#athletics-section ol {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+#athletics-section li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+#academics-section {
+    float: left; /* Align the div to the left */
+    margin-right: 20px; /* Add some space between the content and the left-aligned div */
+    width: 40%; /* Set a width for the div */
+    background-color: #f5f5f5; /* Add a background color */
+    padding: 10px; /* Add padding for better readability */
+    border: 1px solid #ddd; /* Add a border for visual separation */
+}
+
+#academics-section h2 {
+    color: #333; /* Change the color of the heading */
+    border-bottom: 2px solid #333; /* Add a border below the heading for separation */
+    padding-bottom: 5px; /* Add space between the heading and the list */
+}
+
+#academics-section ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+#academics-section li {
+    margin-bottom: 10px; /* Add space between list items */
+}
